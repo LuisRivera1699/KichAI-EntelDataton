@@ -47,7 +47,7 @@ El código está completamente comentado. ```app.py``` en la raíz del proyecto 
 ### Ejecución
 
 - Clonar repositorio de git ```git clone https://github.com/LuisRivera1699/KichAI-EntelDataton.git```
-- Descargar la carpeta yolov3_models y agregarla a la raíz. (En esta carpeta están los pesos y los modelos entrenados. Y github no nos permite subir más de 100mb). Link de descarga: (https://drive.google.com/drive/folders/1iSDbVLtyADoSm0WWYhiTQ1ppUC9c9te6?usp=sharing)
+- Descargar la carpeta yolov3_models. Descomprimir en la raíz. (En esta carpeta están los pesos y los modelos entrenados. Y github no nos permite subir más de 100mb). Link de descarga: (https://drive.google.com/drive/folders/1iSDbVLtyADoSm0WWYhiTQ1ppUC9c9te6?usp=sharing)
 - Dirigirse a la raíz del proyecto y ejecutar: ```app.py``` o ```python app.py```
 - Esperar a que el modelo procese las imágenes. Demora aproximadamente 80 segundos.
 - Cuando el modelo haya acabado, revisar la carpeta /output. Dentro de ella se encontrará un .csv y un .xlsx con el nombre 'model_output' contenido las salidas del modelo.
