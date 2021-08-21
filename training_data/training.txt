@@ -20,6 +20,7 @@ SDF -> MODELO DE TRANSFER LEARNING DE YOLOv3 ELABORADO PARA DETECTAR Y RECONOCER
 DOCR -> MODELO DE TRANSFER LEARNING DE YOLOv3 ELABORADO PARA DETECTAR Y RECONOCER NUMEROS DENTRO DE LOS CAMPOS DE FECHA LLENADOS
 
 Si se desea entrenar:
+- Descargar las carpetas indicadas abajo. Subirtlas individualmente a drive y renombrarlas a yolov3 y ejecutar el notebook interno.
 - YOLOv3 SDF demora aproximadamente 3 horas y media
 - YOLOv3 DOCR demora aproximadamente 20 horas
 Estos tiempos es debido a que el modelo de transfer learning además hace un data augmentation interno.
