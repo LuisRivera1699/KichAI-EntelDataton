@@ -1,0 +1,28 @@
+YOLOv3 Transfer Learning
+
+Se eligió YOLOv3 por ser uno de los mejores modelos actuales
+para tarea de Object Detection; dentro de ellas su rama de
+OCR también.
+
+Para realizar el transfer learning, se siguió el tutorial del
+siguiente artículo de Medium, escrito por Nitin Tiwari el 2 de
+Diciembre del 2020.
+
+NOMBRE: YOLOv3 Custom Object Detection with Transfer Learning
+URL: https://medium.com/analytics-vidhya/yolov3-custom-object-detection-with-transfer-learning-47186c8f166d
+
+Dejamos los links al drive donde se almacenan los assets de 
+entrenamiento para cada uno de los modelos entrenados:
+
+La explicación de los modelos se encuentra comentada en el archivo YoloImplementation.py de la carpeta /yolo_impl
+Una rápida explicacion:
+SDF -> MODELO DE TRANSFER LEARNING DE YOLOv3 ELABORADO PARA DETECTAR Y RECONOCER FIRMAS Y EL CAMPO DE FECHA SI ESTA LLENADO
+DOCR -> MODELO DE TRANSFER LEARNING DE YOLOv3 ELABORADO PARA DETECTAR Y RECONOCER NUMEROS DENTRO DE LOS CAMPOS DE FECHA LLENADOS
+
+Si se desea entrenar:
+- YOLOv3 SDF demora aproximadamente 3 horas y media
+- YOLOv3 DOCR demora aproximadamente 20 horas
+Estos tiempos es debido a que el modelo de transfer learning además hace un data augmentation interno.
+Llegando a ampliar a 256000 imagenes en el SDF, y 1280000 imagenes en el DOCR.
+YOLOv3 SDF: https://drive.google.com/drive/folders/1I89vHAiilz5iLb35JYiQZHJ89h0UyVQK?usp=sharing
+YOLOv3 DOCR: https://drive.google.com/drive/folders/1AnoV-sThywL0oDZJMY7hbGg5s2k_AtSp?usp=sharing
