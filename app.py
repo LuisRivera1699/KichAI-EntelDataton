@@ -22,7 +22,7 @@ def main():
     yimp.excecute_sdf()
     print("Yolo-SDF ha terminado exitosamente.")
     print("Iniciando detección de números y formateando las fechas con el modelo Yolo-DOCR...")
-    yimp.execute_docr(partial='1502.weights') # Cambiar por '1502.weights' si se quiere ver los resultados del otro modelo
+    yimp.execute_docr(partial='1502.weights') # Cambiar por '1814.weights' si se quiere ver los resultados del otro modelo
     print("Yolo-DOCR ha terminado exitosamente.")
     print("El modelo ha corrido exitosamente. Dirígete a la carpeta /output para ver las salidas del modelo.")
     print("Se realizó la detección de firmas y fechas de las 107 imágenes de prueba en {} segundos".format(time.time() - start_time))
