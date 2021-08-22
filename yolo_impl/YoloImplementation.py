@@ -34,8 +34,8 @@ import pandas as pd
 # Se eligio los pesos de la epoca guardada a las 18:14pm del dia 18 de agosto debido a su alto performance. (no detalla el numero de epoca)
 # /yolov3_models/docr/classes.txt -> archivo de texto conteniendo las clases del modelo
 # /yolov3_models/docr/yolov3_testing.cfg -> arquitectura de la red neuronal a cargar
-# /yolov3_models/docr/partial/1814.weights -> archivo con los pesos entrenados en el transfer learning en la epoca de las 18:14pm. (mejor resultado)
-# /yolov3_models/docr/partial/1502.weights -> archivo con los pesos entrenados en el transfer learning en la epoca de las 15:02pm. (segundo mejor resultado)
+# /yolov3_models/docr/partial/1814.weights -> archivo con los pesos entrenados en el transfer learning en la epoca de las 18:14pm. (segundo mejor resultado)
+# /yolov3_models/docr/partial/1502.weights -> archivo con los pesos entrenados en el transfer learning en la epoca de las 15:02pm. (mejor resultado)
 class YoloImplementation:
     def __init__(self):
         pass
