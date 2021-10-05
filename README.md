@@ -51,24 +51,6 @@ El código está completamente comentado. ```app.py``` en la raíz del proyecto 
 - Dirigirse a la raíz del proyecto y ejecutar: ```app.py``` o ```python app.py```
 - Esperar a que el modelo procese las imágenes. Demora aproximadamente 80 segundos.
 - Cuando el modelo haya acabado, revisar la carpeta /output. Dentro de ella se encontrará un .csv y un .xlsx con el nombre 'model_output' contenido las salidas del modelo.
-
-## Contacto
-
-Cualquier consulta o pregunta en la etapa de evaluación, por favor contactarnos a (contesta siempre):
-
-- Email: luisriveradiaz1699@gmail.com
-- Celular: +51 932 104 502
-## Autores
-
-Luis Rivera
-- Email: luisriveradiaz1699@gmail.com
-
-Pedro Zúñiga
-- Email: pedro.zuniga9749@gmail.com
-
-Iver Castro
-- Email: ivrcstrrvr@gmail.com
-
   
 ## Referencias
 
